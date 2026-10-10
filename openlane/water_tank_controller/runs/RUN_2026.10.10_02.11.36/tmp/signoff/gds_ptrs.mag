@@ -1,0 +1,6 @@
+<< properties >>
+string FIXED_BBOX 0 0 10149 12293
+string GDS_END 258662
+string GDS_FILE /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.11.36/results/signoff/water_tank_controller.magic.gds
+string GDS_START 135574
+<< end >>

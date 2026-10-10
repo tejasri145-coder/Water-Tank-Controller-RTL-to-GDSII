@@ -1,0 +1,48 @@
+Sat Oct 10 02:09:09 UTC 2026 - Executing "openroad -exit -no_init -python /home/vsduser/OpenLane/scripts/odbpy/lefutil.py get_metal_layers -o /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.09.08/tmp/layers.list /home/vsduser/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef"
+
+Sat Oct 10 02:09:09 UTC 2026 - Executing "/home/vsduser/OpenLane/scripts/mergeLef.py -o /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.09.08/tmp/merged.nom.lef -i /home/vsduser/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef {/home/vsduser/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef /home/vsduser/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef} |& tee /dev/null"
+
+Sat Oct 10 02:09:09 UTC 2026 - Executing "/home/vsduser/OpenLane/scripts/mergeLef.py -o /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.09.08/tmp/merged.min.lef -i /home/vsduser/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__min.tlef {/home/vsduser/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef /home/vsduser/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef} |& tee /dev/null"
+
+Sat Oct 10 02:09:10 UTC 2026 - Executing "/home/vsduser/OpenLane/scripts/mergeLef.py -o /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.09.08/tmp/merged.max.lef -i /home/vsduser/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__max.tlef {/home/vsduser/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef /home/vsduser/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef} |& tee /dev/null"
+
+Sat Oct 10 02:09:10 UTC 2026 - Executing "python3 /home/vsduser/OpenLane/scripts/mergeLib.py --output /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.09.08/tmp/synthesis/merged.lib --name sky130A_merged /home/vsduser/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
+
+Sat Oct 10 02:09:10 UTC 2026 - Executing "python3 /home/vsduser/OpenLane/scripts/libtrim.py --cell-file /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.09.08/tmp/synthesis/trimmed.lib.exclude.list --output /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.09.08/tmp/synthesis/trimmed.lib /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.09.08/tmp/synthesis/merged.lib"
+
+Sat Oct 10 02:09:10 UTC 2026 - Executing "python3 /home/vsduser/OpenLane/scripts/libtrim.py --cell-file /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.09.08/tmp/cts/cts.lib.exclude.list --output /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.09.08/tmp/cts/cts.lib /home/vsduser/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
+
+Sat Oct 10 02:09:10 UTC 2026 - Executing "python3 /home/vsduser/OpenLane/scripts/libtrim.py --cell-file /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.09.08/tmp/cts/cts-fastest.lib.exclude.list --output /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.09.08/tmp/cts/cts-fastest.lib /home/vsduser/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib"
+
+Sat Oct 10 02:09:11 UTC 2026 - Executing "python3 /home/vsduser/OpenLane/scripts/libtrim.py --cell-file /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.09.08/tmp/cts/cts-slowest.lib.exclude.list --output /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.09.08/tmp/cts/cts-slowest.lib /home/vsduser/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib"
+
+Sat Oct 10 02:09:11 UTC 2026 - Executing "python3 /home/vsduser/OpenLane/scripts/new_tracks.py -i /home/vsduser/.ciel/sky130A/libs.tech/openlane/sky130_fd_sc_hd/tracks.info -o /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.09.08/tmp/routing/config.tracks"
+
+Sat Oct 10 02:09:11 UTC 2026 - Executing "echo {OpenLane ff5509f65b17bfa4068d5336495ab1718987ff69} > /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.09.08/OPENLANE_COMMIT"
+
+Sat Oct 10 02:09:11 UTC 2026 - Executing "bash -c {verilator  --lint-only  -Wall  --Wno-DECLFILENAME  --top-module water_tank_controller  /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/src/water_tank_controller.v -Wno-fatal --relative-includes |& tee /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.09.08/logs/synthesis/linter.log /dev/null}"
+
+Sat Oct 10 02:09:11 UTC 2026 - Executing "sed -E {s/^([[:space:]]+)pg_pin(.*)/\1pin\2\n\1    direction : "inout";/g} /home/vsduser/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib > /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.09.08/tmp/synthesis/1-sky130_fd_sc_hd__tt_025C_1v80.no_pg.lib"
+
+Sat Oct 10 02:09:12 UTC 2026 - Executing "sed -E {s/^([[:space:]]+)pg_pin(.*)/\1pin\2\n\1    direction : "inout";/g} /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.09.08/tmp/synthesis/trimmed.lib > /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.09.08/tmp/synthesis/1-trimmed.no_pg.lib"
+
+Sat Oct 10 02:09:12 UTC 2026 - Executing "yosys -c /home/vsduser/OpenLane/scripts/yosys/synth.tcl |& tee /dev/null /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.09.08/logs/synthesis/1-synthesis.log"
+
+Sat Oct 10 02:09:12 UTC 2026 - Executing "sed -i.bak -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/vsduser\/Desktop\/Water-Tank-Controller-RTL-to-GDSII\/openlane\/water_tank_controller\/runs\/RUN_2026.10.10_02.09.08\/results\/synthesis\/water_tank_controller.v/} /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.09.08/config.tcl"
+
+Sat Oct 10 02:09:12 UTC 2026 - Executing "sed -i.bak /defparam/d /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.09.08/results/synthesis/water_tank_controller.v"
+
+Sat Oct 10 02:09:13 UTC 2026 - Executing "sta -exit -no_init /home/vsduser/OpenLane/scripts/openroad/sta/multi_corner.tcl |& tee /dev/null /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.09.08/logs/synthesis/2-sta.log"
+
+Sat Oct 10 02:09:13 UTC 2026 - Executing "openroad -exit /home/vsduser/OpenLane/scripts/openroad/floorplan.tcl |& tee /dev/null /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.09.08/logs/floorplan/3-initial_fp.log"
+
+Sat Oct 10 02:09:14 UTC 2026 - Executing "openroad -exit -no_init -python /home/vsduser/OpenLane/scripts/odbpy/snap_to_grid.py --output /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.09.08/tmp/floorplan/3-minimized_pdn.txt --input-lef /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.09.08/tmp/merged.nom.lef 2.8175 2.7199999999999998 5.635 5.4399999999999995"
+
+Sat Oct 10 02:09:14 UTC 2026 - Executing "openroad -exit -no_init -python /home/vsduser/OpenLane/scripts/odbpy/defutil.py extract_core_dims --output-data /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.09.08/tmp/dimensions.txt --input-lef /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.09.08/tmp/merged.nom.lef /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.09.08/tmp/floorplan/3-initial_fp.def"
+
+Sat Oct 10 02:09:14 UTC 2026 - Executing "openroad -exit /home/vsduser/OpenLane/scripts/openroad/ioplacer.tcl |& tee /dev/null /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.09.08/logs/floorplan/4-io.log"
+
+Sat Oct 10 02:09:15 UTC 2026 - Executing "openroad -exit /home/vsduser/OpenLane/scripts/openroad/tapcell.tcl |& tee /dev/null /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.09.08/logs/floorplan/5-tap.log"
+
+Sat Oct 10 02:09:15 UTC 2026 - Executing "openroad -exit /home/vsduser/OpenLane/scripts/openroad/pdn.tcl |& tee /dev/null /home/vsduser/Desktop/Water-Tank-Controller-RTL-to-GDSII/openlane/water_tank_controller/runs/RUN_2026.10.10_02.09.08/logs/floorplan/6-pdn.log"
+

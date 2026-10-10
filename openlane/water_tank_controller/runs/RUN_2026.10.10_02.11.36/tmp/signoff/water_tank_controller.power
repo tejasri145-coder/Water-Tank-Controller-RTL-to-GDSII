@@ -1,0 +1,8 @@
+VPWR power 1.8
+VGND power 0.0
+#define std_input min@VGND max@VPWR
+clk input std_input
+dry_run_fault input std_input
+level_full input std_input
+level_low input std_input
+rst_n input std_input
